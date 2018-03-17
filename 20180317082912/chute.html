@@ -1,0 +1,239 @@
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Chute Report</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        </head>
+        <body>
+        <style>
+            .summary {
+                 -webkit-column-count: 3; /* Chrome, Safari, Opera */
+                 -moz-column-count: 3; /* Firefox */
+                 column-count: 3;
+            }
+            .summary-2-column {
+                 -webkit-column-count: 2; /* Chrome, Safari, Opera */
+                 -moz-column-count: 2; /* Firefox */
+                 column-count: 2;
+            }
+            .summary-1-column {
+                 -webkit-column-count: 1; /* Chrome, Safari, Opera */
+                 -moz-column-count: 1; /* Firefox */
+                 column-count: 1;
+            }
+            .summary-iten {
+                 -webkit-column-count: 1; /* Chrome, Safari, Opera */
+                 -moz-column-count: 1; /* Firefox */
+                 column-count: 1;
+                text-align: center;
+                padding: 7px 7px;
+            }
+            .summary-item-text {
+                text-align: center;
+            }
+            .gallery {
+                 -webkit-column-count: 3; /* Chrome, Safari, Opera */
+                 -moz-column-count: 3; /* Firefox */
+                 column-count: 3;
+            }
+            .gallery img{ width: 100%; padding: 7px 0; margin-bottom: 7px; }
+            @media (max-width: 500px) {
+                .gallery {
+                    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+                    -moz-column-count: 1; /* Firefox */
+                    column-count: 1;
+                }
+            }
+            .gallery-image {
+                border: 1px solid lightgray;
+                margin-bottom: 7px;
+                border-radius: 5px;
+                width: 100%;
+                height: auto;
+                display: inline-block;
+            }
+            .gallery-image > h5 {
+                color: #777;
+                padding: 7px 5px 0px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                border-bottom: 1px solid lightgray;
+            }
+        </style>
+        <div class="container">
+        <div class="jumbotron">
+<h1>Chute Report</h1>
+<div>
+<p>Project: ChuteExample.xcodeproj</p>
+<p>Test Date: 2018-03-17 12:29:12 +0000</p>
+<p>Branch: </p>
+</div>
+</div>
+<div class="jumbotron">
+<h3>Summary</h3>
+<div>
+<div class="summary">
+    <div class="summary-item alert alert-info">
+        <div class="summary-item-text"><h1>6</h1></div>
+        <div class="summary-item-text"><h3>Total Tests</h3></div>
+    </div>
+
+    <div class="summary-item alert alert-success">
+        <div class="summary-item-text"><h1>5</h1></div>
+        <div class="summary-item-text"><h3>Success Tests</h3></div>
+    </div>
+
+    <div class="summary-item alert alert-danger">
+        <div class="summary-item-text"><h1>1</h1></div>
+        <div class="summary-item-text"><h3>Failed Tests</h3></div>
+    </div>
+</div>
+<div class="summary">
+    <div class="summary-item alert alert-info">
+        <div class="summary-item-text"><h1>100 %</h1></div>
+        <div class="summary-item-text"><h3>Avg Coverage</h3></div>
+    </div>
+
+    <div class="summary-item alert alert-info">
+        <div class="summary-item-text"><h1>1</h1></div>
+        <div class="summary-item-text"><h3>Above 90% Coverage</h3></div>
+    </div>
+
+    <div class="summary-item alert alert-info">
+        <div class="summary-item-text"><h1>0</h1></div>
+        <div class="summary-item-text"><h3>No Coverage</h3></div>
+    </div>
+</div>
+<div class="summary-1-column">
+    <div class="summary-item alert alert-info">
+        <div class="summary-item-text"><h1>5</h1></div>
+        <div class="summary-item-text"><h3>Views Captured</h3></div>
+    </div>
+</div>
+<div class="summary-2-column">
+    <div class="summary-item alert alert-info">
+        <div class="summary-item-text"><h1>5</h1></div>
+        <div class="summary-item-text"><h3>Colors Found</h3></div>
+    </div>
+
+    <div class="summary-item alert alert-success">
+        <div class="summary-item-text"><h1>2</h1></div>
+        <div class="summary-item-text"><h3>Fonts Found</h3></div>
+    </div>
+</div>
+</div>
+</div>
+<div class="jumbotron">
+<h3>Test Details</h3>
+<div class="table-responsive">
+<table class="table">
+<tbody>
+<tr><td><strong>ViewControllerTests</strong></td></tr>
+<tr class="table-danger"><td>testOneTestFailsForReporting</td></tr><tr class="table-success"><td>testViewControllerCanBeInstantiated</td></tr><tr class="table-success"><td>testViewControllerWithFullConfigure</td></tr><tr class="table-success"><td>testViewControllerWithNoDetails</td></tr><tr class="table-success"><td>testViewControllerWithOneDetail</td></tr><tr class="table-success"><td>testViewControllerWithTwoDetails</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="jumbotron">
+<h3>Code Coverage Details</h3>
+<div class="table-responsive">
+<table class="table">
+<thead>
+<th>Target</th>
+<th>File</th>
+<th>Coverage</th>
+</thead>
+<tbody>
+<tr class="table-success">
+<td>ChuteExample.app</td>
+<td>ViewController.swift</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="jumbotron">
+<h3>View Captures</h3>
+<div class="gallery">
+<div class="gallery-image">
+    <h5>ViewControllerWithoutConfigure</h5>
+    <img src="attachments/ViewControllerWithoutConfigure_1_C6F787BB-13D2-4A26-BC8F-F330EC635AEA.png" alt="ViewControllerWithoutConfigure">
+    <div class="clearfix"></div>
+</div><div class="gallery-image">
+    <h5>ViewControllerWithFullConfigure</h5>
+    <img src="attachments/ViewControllerWithFullConfigure_1_2C475A18-4429-418C-884D-386ED8E7C457.png" alt="ViewControllerWithFullConfigure">
+    <div class="clearfix"></div>
+</div><div class="gallery-image">
+    <h5>ViewControllerWithNoDetails</h5>
+    <img src="attachments/ViewControllerWithNoDetails_1_130AA2D9-C1D0-4F69-86F6-CB4F45D35898.png" alt="ViewControllerWithNoDetails">
+    <div class="clearfix"></div>
+</div><div class="gallery-image">
+    <h5>ViewControllerWithFirstDetailOnly</h5>
+    <img src="attachments/ViewControllerWithFirstDetailOnly_1_9DF33FA7-43E0-4D95-B9E6-7F5389C85C1D.png" alt="ViewControllerWithFirstDetailOnly">
+    <div class="clearfix"></div>
+</div><div class="gallery-image">
+    <h5>ViewControllerWithTwoDetails</h5>
+    <img src="attachments/ViewControllerWithTwoDetails_1_D6A87213-CD57-4D4F-BB8F-CEA349BDDA6B.png" alt="ViewControllerWithTwoDetails">
+    <div class="clearfix"></div>
+</div>
+</div>
+</div>
+<div class="jumbotron">
+<h3>Colors</h3>
+<div class="table-responsive">
+<table class="table">
+<thead>
+<th>Color</th>
+<th></th>
+</thead>
+<tbody>
+<tr><td>
+<div class="color-swatch" style="background-color:#000000;float: left;width: 60px;height: 60px;margin: 0 5px;border-radius: 3px">
+</div></td><td>#000000</td></tr><tr><td>
+<div class="color-swatch" style="background-color:#0000FF;float: left;width: 60px;height: 60px;margin: 0 5px;border-radius: 3px">
+</div></td><td>#0000FF</td></tr><tr><td>
+<div class="color-swatch" style="background-color:#FF0000;float: left;width: 60px;height: 60px;margin: 0 5px;border-radius: 3px">
+</div></td><td>#FF0000</td></tr><tr><td>
+<div class="color-swatch" style="background-color:#FF9900;float: left;width: 60px;height: 60px;margin: 0 5px;border-radius: 3px">
+</div></td><td>#FF9900</td></tr><tr><td>
+<div class="color-swatch" style="background-color:#FFFFFF;float: left;width: 60px;height: 60px;margin: 0 5px;border-radius: 3px">
+</div></td><td>#FFFFFF</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="jumbotron">
+<h3>Fonts</h3>
+<div class="table-responsive">
+<table class="table">
+<thead>
+<th>Font</th>
+<th>Size</th>
+</thead>
+<tbody>
+<tr><td>.SFUIDisplay</td><td>28</td></tr><tr><td>.SFUIText</td><td>17</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+        </body>
+    </html>
