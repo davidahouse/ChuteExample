@@ -107,36 +107,50 @@
 			<array>
 				<dict>
 					<key>Duration</key>
-					<real>0.41221404075622559</real>
+					<real>0.37281394004821777</real>
 					<key>Subtests</key>
 					<array>
 						<dict>
 							<key>Duration</key>
-							<real>0.4106980562210083</real>
+							<real>0.37128496170043945</real>
 							<key>Subtests</key>
 							<array>
 								<dict>
 									<key>Duration</key>
-									<real>0.40979897975921631</real>
+									<real>0.3703160285949707</real>
 									<key>Subtests</key>
 									<array>
 										<dict>
+											<key>ActivitySummaries</key>
+											<array>
+												<dict>
+													<key>ActivityType</key>
+													<string>com.apple.dt.xctest.activity-type.testAssertionFailure</string>
+													<key>FinishTimeInterval</key>
+													<real>543021494.440274</real>
+													<key>StartTimeInterval</key>
+													<real>543021494.43980598</real>
+													<key>Title</key>
+													<string>Assertion Failure: ViewControllerTests.swift:55: failed - Nothing to see here, move along</string>
+													<key>UUID</key>
+													<string>8D758358-071A-4151-8A11-F90C9880903C</string>
+												</dict>
+											</array>
 											<key>Duration</key>
-											<real>0.0041331052780151367</real>
-											<key>TestIdentifier</key>
-											<string>ViewControllerTests/testOneMoreAdditionalTest()</string>
-											<key>TestName</key>
-											<string>testOneMoreAdditionalTest()</string>
-											<key>TestObjectClass</key>
-											<string>IDESchemeActionTestSummary</string>
-											<key>TestStatus</key>
-											<string>Success</string>
-											<key>TestSummaryGUID</key>
-											<string>D89D4D67-52EF-418E-82F2-55266AD81C6A</string>
-										</dict>
-										<dict>
-											<key>Duration</key>
-											<real>0.00073492527008056641</real>
+											<real>0.012605905532836914</real>
+											<key>FailureSummaries</key>
+											<array>
+												<dict>
+													<key>FileName</key>
+													<string>/Users/davidhouse/Projects/davidahouse/ChuteExample/ChuteExampleTests/ViewControllerTests.swift</string>
+													<key>LineNumber</key>
+													<integer>55</integer>
+													<key>Message</key>
+													<string>failed - Nothing to see here, move along</string>
+													<key>PerformanceFailure</key>
+													<false/>
+												</dict>
+											</array>
 											<key>TestIdentifier</key>
 											<string>ViewControllerTests/testOneTestFailsForReporting()</string>
 											<key>TestName</key>
@@ -144,9 +158,9 @@
 											<key>TestObjectClass</key>
 											<string>IDESchemeActionTestSummary</string>
 											<key>TestStatus</key>
-											<string>Success</string>
+											<string>Failure</string>
 											<key>TestSummaryGUID</key>
-											<string>D726BDDA-4A06-4BFB-807B-82E1D6CF22C4</string>
+											<string>9A522189-0C19-4B6B-89FC-875FB6EEEE00</string>
 										</dict>
 										<dict>
 											<key>ActivitySummaries</key>
@@ -158,7 +172,7 @@
 													<array>
 														<dict>
 															<key>Filename</key>
-															<string>ViewControllerWithoutConfigure_1_3A6DF077-C650-4704-A4DF-97619DC8542E.png</string>
+															<string>ViewControllerWithoutConfigure_1_041568BB-25E6-4FB3-83AC-1C96A334E722.png</string>
 															<key>HasPayload</key>
 															<true/>
 															<key>InActivityIdentifier</key>
@@ -168,7 +182,7 @@
 															<key>Name</key>
 															<string>ViewControllerWithoutConfigure</string>
 															<key>Timestamp</key>
-															<real>543021688.15207803</real>
+															<real>543021494.49694002</real>
 															<key>UniformTypeIdentifier</key>
 															<string>public.png</string>
 															<key>UserInfo</key>
@@ -179,13 +193,13 @@
 														</dict>
 													</array>
 													<key>FinishTimeInterval</key>
-													<real>543021688.18877399</real>
+													<real>543021494.53185201</real>
 													<key>StartTimeInterval</key>
-													<real>543021688.18814099</real>
+													<real>543021494.53113604</real>
 													<key>Title</key>
 													<string>Added attachment named 'ViewControllerWithoutConfigure'</string>
 													<key>UUID</key>
-													<string>3A6DF077-C650-4704-A4DF-97619DC8542E</string>
+													<string>041568BB-25E6-4FB3-83AC-1C96A334E722</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
@@ -194,7 +208,7 @@
 													<array>
 														<dict>
 															<key>Filename</key>
-															<string>ViewControllerWithoutConfigure_1_C22DDC4C-8C31-4F20-A8D5-22A34646A99E</string>
+															<string>ViewControllerWithoutConfigure_1_702296FE-9985-4D20-92DA-B2BF537643D8</string>
 															<key>HasPayload</key>
 															<true/>
 															<key>InActivityIdentifier</key>
@@ -204,23 +218,23 @@
 															<key>Name</key>
 															<string>ViewControllerWithoutConfigure</string>
 															<key>Timestamp</key>
-															<real>543021688.20849097</real>
+															<real>543021494.54765296</real>
 															<key>UniformTypeIdentifier</key>
 															<string>chute.styleSheet</string>
 														</dict>
 													</array>
 													<key>FinishTimeInterval</key>
-													<real>543021688.20898294</real>
+													<real>543021494.54818904</real>
 													<key>StartTimeInterval</key>
-													<real>543021688.208529</real>
+													<real>543021494.54768896</real>
 													<key>Title</key>
 													<string>Added attachment named 'ViewControllerWithoutConfigure'</string>
 													<key>UUID</key>
-													<string>C22DDC4C-8C31-4F20-A8D5-22A34646A99E</string>
+													<string>702296FE-9985-4D20-92DA-B2BF537643D8</string>
 												</dict>
 											</array>
 											<key>Duration</key>
-											<real>0.11204397678375244</real>
+											<real>0.10799300670623779</real>
 											<key>TestIdentifier</key>
 											<string>ViewControllerTests/testViewControllerCanBeInstantiated()</string>
 											<key>TestName</key>
@@ -230,7 +244,7 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>34AF2CB9-4DD5-4D4C-AA07-867B728D4AA2</string>
+											<string>3648765B-9A61-4142-9C67-1A101033D3FB</string>
 										</dict>
 										<dict>
 											<key>ActivitySummaries</key>
@@ -242,7 +256,7 @@
 													<array>
 														<dict>
 															<key>Filename</key>
-															<string>ViewControllerWithFullConfigure_1_711DF2A6-7053-4792-9E19-1E0D6245D866.png</string>
+															<string>ViewControllerWithFullConfigure_1_E71F8F5C-B2D8-4BA1-9B9B-9E923C7572CC.png</string>
 															<key>HasPayload</key>
 															<true/>
 															<key>InActivityIdentifier</key>
@@ -252,7 +266,7 @@
 															<key>Name</key>
 															<string>ViewControllerWithFullConfigure</string>
 															<key>Timestamp</key>
-															<real>543021688.24442005</real>
+															<real>543021494.58849895</real>
 															<key>UniformTypeIdentifier</key>
 															<string>public.png</string>
 															<key>UserInfo</key>
@@ -263,13 +277,13 @@
 														</dict>
 													</array>
 													<key>FinishTimeInterval</key>
-													<real>543021688.27734101</real>
+													<real>543021494.619537</real>
 													<key>StartTimeInterval</key>
-													<real>543021688.27680099</real>
+													<real>543021494.61906898</real>
 													<key>Title</key>
 													<string>Added attachment named 'ViewControllerWithFullConfigure'</string>
 													<key>UUID</key>
-													<string>711DF2A6-7053-4792-9E19-1E0D6245D866</string>
+													<string>E71F8F5C-B2D8-4BA1-9B9B-9E923C7572CC</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
@@ -278,7 +292,7 @@
 													<array>
 														<dict>
 															<key>Filename</key>
-															<string>ViewControllerWithFullConfigure_1_DCC2DC21-1632-4170-8F44-0B3BF03993AF</string>
+															<string>ViewControllerWithFullConfigure_1_16DA66C6-D890-4243-85DF-4E87946282FF</string>
 															<key>HasPayload</key>
 															<true/>
 															<key>InActivityIdentifier</key>
@@ -288,59 +302,23 @@
 															<key>Name</key>
 															<string>ViewControllerWithFullConfigure</string>
 															<key>Timestamp</key>
-															<real>543021688.27842498</real>
+															<real>543021494.62052298</real>
 															<key>UniformTypeIdentifier</key>
 															<string>chute.styleSheet</string>
 														</dict>
 													</array>
 													<key>FinishTimeInterval</key>
-													<real>543021688.27886295</real>
+													<real>543021494.62091696</real>
 													<key>StartTimeInterval</key>
-													<real>543021688.27845597</real>
+													<real>543021494.62054598</real>
 													<key>Title</key>
 													<string>Added attachment named 'ViewControllerWithFullConfigure'</string>
 													<key>UUID</key>
-													<string>DCC2DC21-1632-4170-8F44-0B3BF03993AF</string>
-												</dict>
-												<dict>
-													<key>ActivityType</key>
-													<string>com.apple.dt.xctest.activity-type.attachmentContainer</string>
-													<key>Attachments</key>
-													<array>
-														<dict>
-															<key>Filename</key>
-															<string>ViewControllerWithFullConfigureNewScreenshot_1_E9F0BCC1-96C1-46B2-80AA-523134C130B6.png</string>
-															<key>HasPayload</key>
-															<true/>
-															<key>InActivityIdentifier</key>
-															<integer>1</integer>
-															<key>Lifetime</key>
-															<integer>0</integer>
-															<key>Name</key>
-															<string>ViewControllerWithFullConfigureNewScreenshot</string>
-															<key>Timestamp</key>
-															<real>543021688.29354799</real>
-															<key>UniformTypeIdentifier</key>
-															<string>public.png</string>
-															<key>UserInfo</key>
-															<dict>
-																<key>Scale</key>
-																<real>2</real>
-															</dict>
-														</dict>
-													</array>
-													<key>FinishTimeInterval</key>
-													<real>543021688.32748699</real>
-													<key>StartTimeInterval</key>
-													<real>543021688.32708597</real>
-													<key>Title</key>
-													<string>Added attachment named 'ViewControllerWithFullConfigureNewScreenshot'</string>
-													<key>UUID</key>
-													<string>E9F0BCC1-96C1-46B2-80AA-523134C130B6</string>
+													<string>16DA66C6-D890-4243-85DF-4E87946282FF</string>
 												</dict>
 											</array>
 											<key>Duration</key>
-											<real>0.11809694766998291</real>
+											<real>0.071789979934692383</real>
 											<key>TestIdentifier</key>
 											<string>ViewControllerTests/testViewControllerWithFullConfigure()</string>
 											<key>TestName</key>
@@ -350,7 +328,7 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>E55D42CF-7B4A-4E5E-B397-5F5DE6168E32</string>
+											<string>084E2F55-61F2-4B8F-8891-4211B5666E2B</string>
 										</dict>
 										<dict>
 											<key>ActivitySummaries</key>
@@ -362,7 +340,7 @@
 													<array>
 														<dict>
 															<key>Filename</key>
-															<string>ViewControllerWithNewDetails_1_66ECC16D-C1F2-4EC0-BCA6-6FC1AFABD062.png</string>
+															<string>ViewControllerWithNoDetails_1_10A24F05-FDE7-43E2-881F-1A9D40DA89F8.png</string>
 															<key>HasPayload</key>
 															<true/>
 															<key>InActivityIdentifier</key>
@@ -370,9 +348,9 @@
 															<key>Lifetime</key>
 															<integer>0</integer>
 															<key>Name</key>
-															<string>ViewControllerWithNewDetails</string>
+															<string>ViewControllerWithNoDetails</string>
 															<key>Timestamp</key>
-															<real>543021688.35566902</real>
+															<real>543021494.64985204</real>
 															<key>UniformTypeIdentifier</key>
 															<string>public.png</string>
 															<key>UserInfo</key>
@@ -383,13 +361,13 @@
 														</dict>
 													</array>
 													<key>FinishTimeInterval</key>
-													<real>543021688.38922</real>
+													<real>543021494.68220305</real>
 													<key>StartTimeInterval</key>
-													<real>543021688.38870299</real>
+													<real>543021494.68170702</real>
 													<key>Title</key>
-													<string>Added attachment named 'ViewControllerWithNewDetails'</string>
+													<string>Added attachment named 'ViewControllerWithNoDetails'</string>
 													<key>UUID</key>
-													<string>66ECC16D-C1F2-4EC0-BCA6-6FC1AFABD062</string>
+													<string>10A24F05-FDE7-43E2-881F-1A9D40DA89F8</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
@@ -398,55 +376,7 @@
 													<array>
 														<dict>
 															<key>Filename</key>
-															<string>ViewControllerWithNewDetails_1_3021CC1E-F6E7-4E68-980C-3A1E780721CA</string>
-															<key>HasPayload</key>
-															<true/>
-															<key>InActivityIdentifier</key>
-															<integer>1</integer>
-															<key>Lifetime</key>
-															<integer>0</integer>
-															<key>Name</key>
-															<string>ViewControllerWithNewDetails</string>
-															<key>Timestamp</key>
-															<real>543021688.39016294</real>
-															<key>UniformTypeIdentifier</key>
-															<string>chute.styleSheet</string>
-														</dict>
-													</array>
-													<key>FinishTimeInterval</key>
-													<real>543021688.39059401</real>
-													<key>StartTimeInterval</key>
-													<real>543021688.39019704</real>
-													<key>Title</key>
-													<string>Added attachment named 'ViewControllerWithNewDetails'</string>
-													<key>UUID</key>
-													<string>3021CC1E-F6E7-4E68-980C-3A1E780721CA</string>
-												</dict>
-											</array>
-											<key>Duration</key>
-											<real>0.062518000602722168</real>
-											<key>TestIdentifier</key>
-											<string>ViewControllerTests/testViewControllerWithNewDetailsTest()</string>
-											<key>TestName</key>
-											<string>testViewControllerWithNewDetailsTest()</string>
-											<key>TestObjectClass</key>
-											<string>IDESchemeActionTestSummary</string>
-											<key>TestStatus</key>
-											<string>Success</string>
-											<key>TestSummaryGUID</key>
-											<string>72AD62E6-7D37-4EB0-B0A2-45A60CA09C93</string>
-										</dict>
-										<dict>
-											<key>ActivitySummaries</key>
-											<array>
-												<dict>
-													<key>ActivityType</key>
-													<string>com.apple.dt.xctest.activity-type.attachmentContainer</string>
-													<key>Attachments</key>
-													<array>
-														<dict>
-															<key>Filename</key>
-															<string>ViewControllerWithNoDetails_1_1704CDD6-5422-4E73-86FC-D6170BEBF1C9.png</string>
+															<string>ViewControllerWithNoDetails_1_D6CDA58A-FF4D-4BA6-9693-6AC190AA5049</string>
 															<key>HasPayload</key>
 															<true/>
 															<key>InActivityIdentifier</key>
@@ -456,59 +386,23 @@
 															<key>Name</key>
 															<string>ViewControllerWithNoDetails</string>
 															<key>Timestamp</key>
-															<real>543021688.41071701</real>
-															<key>UniformTypeIdentifier</key>
-															<string>public.png</string>
-															<key>UserInfo</key>
-															<dict>
-																<key>Scale</key>
-																<real>2</real>
-															</dict>
-														</dict>
-													</array>
-													<key>FinishTimeInterval</key>
-													<real>543021688.44547105</real>
-													<key>StartTimeInterval</key>
-													<real>543021688.44493997</real>
-													<key>Title</key>
-													<string>Added attachment named 'ViewControllerWithNoDetails'</string>
-													<key>UUID</key>
-													<string>1704CDD6-5422-4E73-86FC-D6170BEBF1C9</string>
-												</dict>
-												<dict>
-													<key>ActivityType</key>
-													<string>com.apple.dt.xctest.activity-type.attachmentContainer</string>
-													<key>Attachments</key>
-													<array>
-														<dict>
-															<key>Filename</key>
-															<string>ViewControllerWithNoDetails_1_F7D2950D-94B4-426C-B90B-0998188F8A1C</string>
-															<key>HasPayload</key>
-															<true/>
-															<key>InActivityIdentifier</key>
-															<integer>1</integer>
-															<key>Lifetime</key>
-															<integer>0</integer>
-															<key>Name</key>
-															<string>ViewControllerWithNoDetails</string>
-															<key>Timestamp</key>
-															<real>543021688.44632399</real>
+															<real>543021494.68308604</real>
 															<key>UniformTypeIdentifier</key>
 															<string>chute.styleSheet</string>
 														</dict>
 													</array>
 													<key>FinishTimeInterval</key>
-													<real>543021688.44671202</real>
+													<real>543021494.68348706</real>
 													<key>StartTimeInterval</key>
-													<real>543021688.44634795</real>
+													<real>543021494.68311</real>
 													<key>Title</key>
 													<string>Added attachment named 'ViewControllerWithNoDetails'</string>
 													<key>UUID</key>
-													<string>F7D2950D-94B4-426C-B90B-0998188F8A1C</string>
+													<string>D6CDA58A-FF4D-4BA6-9693-6AC190AA5049</string>
 												</dict>
 											</array>
 											<key>Duration</key>
-											<real>0.055879950523376465</real>
+											<real>0.062207937240600586</real>
 											<key>TestIdentifier</key>
 											<string>ViewControllerTests/testViewControllerWithNoDetails()</string>
 											<key>TestName</key>
@@ -518,7 +412,7 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>2CB4E97A-DDC4-4BBD-895B-CE279688504A</string>
+											<string>00AF778E-017E-49CC-A469-BEAEDA35AF2D</string>
 										</dict>
 										<dict>
 											<key>ActivitySummaries</key>
@@ -530,7 +424,7 @@
 													<array>
 														<dict>
 															<key>Filename</key>
-															<string>ViewControllerWithFirstDetailOnly_1_68DEC966-BED1-4279-99CD-C0A2F6D706AA.png</string>
+															<string>ViewControllerWithFirstDetailOnly_1_B018351F-425F-492B-82E0-DFC967AE0906.png</string>
 															<key>HasPayload</key>
 															<true/>
 															<key>InActivityIdentifier</key>
@@ -540,7 +434,7 @@
 															<key>Name</key>
 															<string>ViewControllerWithFirstDetailOnly</string>
 															<key>Timestamp</key>
-															<real>543021688.46634305</real>
+															<real>543021494.71094501</real>
 															<key>UniformTypeIdentifier</key>
 															<string>public.png</string>
 															<key>UserInfo</key>
@@ -551,13 +445,13 @@
 														</dict>
 													</array>
 													<key>FinishTimeInterval</key>
-													<real>543021688.49988699</real>
+													<real>543021494.74220705</real>
 													<key>StartTimeInterval</key>
-													<real>543021688.49941802</real>
+													<real>543021494.74163997</real>
 													<key>Title</key>
 													<string>Added attachment named 'ViewControllerWithFirstDetailOnly'</string>
 													<key>UUID</key>
-													<string>68DEC966-BED1-4279-99CD-C0A2F6D706AA</string>
+													<string>B018351F-425F-492B-82E0-DFC967AE0906</string>
 												</dict>
 												<dict>
 													<key>ActivityType</key>
@@ -566,7 +460,7 @@
 													<array>
 														<dict>
 															<key>Filename</key>
-															<string>ViewControllerWithFirstDetailOnly_1_C068E9F6-B4C9-41B4-AAB8-439F06888673</string>
+															<string>ViewControllerWithFirstDetailOnly_1_83D55B2D-AED6-49F4-87B3-E0D54B82A4FC</string>
 															<key>HasPayload</key>
 															<true/>
 															<key>InActivityIdentifier</key>
@@ -576,23 +470,23 @@
 															<key>Name</key>
 															<string>ViewControllerWithFirstDetailOnly</string>
 															<key>Timestamp</key>
-															<real>543021688.50066805</real>
+															<real>543021494.743294</real>
 															<key>UniformTypeIdentifier</key>
 															<string>chute.styleSheet</string>
 														</dict>
 													</array>
 													<key>FinishTimeInterval</key>
-													<real>543021688.50106096</real>
+													<real>543021494.74376595</real>
 													<key>StartTimeInterval</key>
-													<real>543021688.50071001</real>
+													<real>543021494.74332201</real>
 													<key>Title</key>
 													<string>Added attachment named 'ViewControllerWithFirstDetailOnly'</string>
 													<key>UUID</key>
-													<string>C068E9F6-B4C9-41B4-AAB8-439F06888673</string>
+													<string>83D55B2D-AED6-49F4-87B3-E0D54B82A4FC</string>
 												</dict>
 											</array>
 											<key>Duration</key>
-											<real>0.054069042205810547</real>
+											<real>0.060204029083251953</real>
 											<key>TestIdentifier</key>
 											<string>ViewControllerTests/testViewControllerWithOneDetail()</string>
 											<key>TestName</key>
@@ -602,7 +496,91 @@
 											<key>TestStatus</key>
 											<string>Success</string>
 											<key>TestSummaryGUID</key>
-											<string>558B0908-7246-4F62-A820-E18740349329</string>
+											<string>97D9CB83-07CD-44A8-A12B-F99C9A500340</string>
+										</dict>
+										<dict>
+											<key>ActivitySummaries</key>
+											<array>
+												<dict>
+													<key>ActivityType</key>
+													<string>com.apple.dt.xctest.activity-type.attachmentContainer</string>
+													<key>Attachments</key>
+													<array>
+														<dict>
+															<key>Filename</key>
+															<string>ViewControllerWithTwoDetails_1_C6D886F8-717C-46CB-9B04-523CFF9F8D65.png</string>
+															<key>HasPayload</key>
+															<true/>
+															<key>InActivityIdentifier</key>
+															<integer>1</integer>
+															<key>Lifetime</key>
+															<integer>0</integer>
+															<key>Name</key>
+															<string>ViewControllerWithTwoDetails</string>
+															<key>Timestamp</key>
+															<real>543021494.76460898</real>
+															<key>UniformTypeIdentifier</key>
+															<string>public.png</string>
+															<key>UserInfo</key>
+															<dict>
+																<key>Scale</key>
+																<real>2</real>
+															</dict>
+														</dict>
+													</array>
+													<key>FinishTimeInterval</key>
+													<real>543021494.79600203</real>
+													<key>StartTimeInterval</key>
+													<real>543021494.79546297</real>
+													<key>Title</key>
+													<string>Added attachment named 'ViewControllerWithTwoDetails'</string>
+													<key>UUID</key>
+													<string>C6D886F8-717C-46CB-9B04-523CFF9F8D65</string>
+												</dict>
+												<dict>
+													<key>ActivityType</key>
+													<string>com.apple.dt.xctest.activity-type.attachmentContainer</string>
+													<key>Attachments</key>
+													<array>
+														<dict>
+															<key>Filename</key>
+															<string>ViewControllerWithTwoDetails_1_28F923AE-4D49-4AE5-B10B-B997858E8B07</string>
+															<key>HasPayload</key>
+															<true/>
+															<key>InActivityIdentifier</key>
+															<integer>1</integer>
+															<key>Lifetime</key>
+															<integer>0</integer>
+															<key>Name</key>
+															<string>ViewControllerWithTwoDetails</string>
+															<key>Timestamp</key>
+															<real>543021494.79689503</real>
+															<key>UniformTypeIdentifier</key>
+															<string>chute.styleSheet</string>
+														</dict>
+													</array>
+													<key>FinishTimeInterval</key>
+													<real>543021494.79728794</real>
+													<key>StartTimeInterval</key>
+													<real>543021494.79692101</real>
+													<key>Title</key>
+													<string>Added attachment named 'ViewControllerWithTwoDetails'</string>
+													<key>UUID</key>
+													<string>28F923AE-4D49-4AE5-B10B-B997858E8B07</string>
+												</dict>
+											</array>
+											<key>Duration</key>
+											<real>0.053086042404174805</real>
+											<key>TestIdentifier</key>
+											<string>ViewControllerTests/testViewControllerWithTwoDetails()</string>
+											<key>TestName</key>
+											<string>testViewControllerWithTwoDetails()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>00658777-68E2-45D0-8122-8582231F7352</string>
 										</dict>
 									</array>
 									<key>TestIdentifier</key>
