@@ -27,6 +27,7 @@ class ViewController: UIViewController {
 
         self.header = header
         self.details = details
+        self.compileThis = false
     }
 
     // MARK: ViewController Lifecycle
