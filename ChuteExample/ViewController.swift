@@ -35,6 +35,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let notUsed = "GeneratesAWarning"
+        
         headerLabel.text = header
         if let details = details, details.count > 0 {
 
