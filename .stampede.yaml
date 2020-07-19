@@ -1,4 +1,4 @@
 pullrequests:
-	tasks:
-		- id: example-task
+  tasks:
+    - id: example-task
 
